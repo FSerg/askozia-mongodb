@@ -8,6 +8,6 @@ module.exports = {
     "askozia_login": process.env.ASKOZIA_LOGIN || "admin",
     "askozia_pass": process.env.ASKOZIA_PASS,
     "MONGO_URL": process.env.MONGO_URL || "mongodb://localhost:27017/askoziadb",
-    "BOT_TOKEN": process.env.BOT_TOKEN
-
+    "BOT_TOKEN": process.env.BOT_TOKEN,
+    "token": process.env.TOKEN
 };
