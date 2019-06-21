@@ -1,5 +1,5 @@
 # This image will be based on the oficial nodejs docker image
-FROM node:latest
+FROM node:8
 
 RUN apt-get update && apt-get install -y \
   sox \
